@@ -42,7 +42,7 @@ body {
 }
 
 #rock {
-    background-image: url(/assets/img/rock.png);
+    background-image: url(img/rock.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25%;
@@ -54,7 +54,7 @@ body {
 
 
 #rock:hover {
-    background-image: url(/assets/img/rockoutline.png);
+    background-image: url(img/rockoutline.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
@@ -65,7 +65,7 @@ body {
 }
 
 #paper {
-  background-image: url(/assets/img/paper.png);
+  background-image: url(img/paper.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
@@ -74,7 +74,7 @@ body {
 }
 
 #paper:hover {
-  background-image: url(/assets/img/paperoutline.png);
+  background-image: url(img/paperoutline.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 58%;
@@ -84,7 +84,7 @@ body {
 }
 
 #scissors{
-  background-image: url(/assets/img/scissors.png);
+  background-image: url(img/scissors.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
@@ -93,7 +93,7 @@ body {
 }
 
 #scissors:hover {
-  background-image: url(/assets/img/scissorsoutline.png);
+  background-image: url(scissorsoutline.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 58%;
@@ -103,7 +103,7 @@ body {
 }
 
 #lizard{
-  background-image: url(/assets/img/lizard.png);
+  background-image: url(lizard.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
@@ -112,7 +112,7 @@ body {
 }
 
 #lizard:hover {
-  background-image: url(/assets/img/lizardoutline.png);
+  background-image: url(lizardoutline.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30%;
@@ -122,7 +122,7 @@ body {
 }
 
 #spock{
-  background-image: url(/assets/img/spock.png);
+  background-image: url(spock.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
@@ -131,7 +131,7 @@ body {
 }
 
 #spock:hover {
-  background-image: url(/assets/img/spockoutline.png);
+  background-image: url(spockoutline.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30%;
