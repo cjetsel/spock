@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body class="text-white">
+  <header class="py-5">
+    <h1 class="text-center glow">Wanna Play A Game?</h1>
+    <h4 class="text-center">Choose your hand!</h4>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div class="row pb-5">
+        <div class="col border-bottom border-success player">
+          <!-- <h2 class="text-right">You</h2> -->
+          <h5 id="player" class="text-center text-muted"><em>you</em></h5>
+        </div>
+        <div class="col-1">
+          <h5 class="text-center">vs</h5>
+        </div>
+        <div class="col border-bottom border-primary computer">
+          <!-- <h2 class="text-left">Computer</h2> -->
+          <h5 id="computer" class="text-center text-muted"><em>computer</em></h5>
+        </div>
+      </div>
+      <div class="row justify-content-center" id="winner"></div>
+      <div
+        class="d-flex flex-sm-column flex-md-row justify-content-around rounded text-white playbox mx-5 pt-4 border border-white">
+        <div class="col-6 col-md-2 align-content-center pr-0" id="rock" onclick="play('rock');declare(result)">
+          <h5 class="text-center">Rock</h5>
+        </div>
+        <div class="col-6 col-md-2 align-content-center pr-0" id="paper" onclick="play('paper');declare(result)">
+          <h5 class="hide text-center">Paper</h5>
+        </div>
+        <div class="col-6 col-md-2 align-content-center pr-0" id="scissors" onclick="play('scissors');declare(result)">
+          <h5 class="hide text-center">Scissors</h5>
+        </div>
+        <div class="col-6 col-md-2 align-content-center pr-0" id="lizard" onclick="play('lizard');declare(result)">
+          <h5 class="hide text-center">Lizard</h5>
+        </div>
+        <div class="col-6 col-md-2 align-content-center" id="spock" onclick="play('spock');declare(result)">
+          <h5 class="hide text-center">Spock</h5>
+        </div>
+      </div>
+      <div class="row">
+        <h5 class="text-center">Rules</h5>
+      </div>
+    </div>
+
+
+  </main>
+  <footer></footer>
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

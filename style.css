@@ -1,0 +1,141 @@
+body {
+  background-color: #130b24;
+
+}
+
+.h100 {
+  height: 100vw;
+}
+
+.h20 {
+  height: 20vw;
+}
+
+.glow {
+  font-size: 80px;
+  color: #000000c9;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #e2e600, 0 0 15px #e2e600, 0 0 20px #e2e600, 0 0 25px #e2e600, 0 0 30px #e2e600;
+  }
+  to {
+    text-shadow: 0 0 7px #fff, 0 0 7px #feffc8, 0 0 13px #fdff96, 0 0 18px #f8fa85, 0 0 23px #f7fa4d, 0 0 28px #e2e600, 0 0 33px #e2e600;
+  }
+}
+
+.player {
+  margin-left: 4em;
+}
+
+.computer{
+  margin-right: 4em;
+}
+
+.playbox {
+  background-color:  #41566bcf;
+}
+
+#rock {
+    background-image: url(/assets/img/rock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    height: 15vw;
+    text-shadow: 0px 0px 4px #292929;
+
+}
+
+
+
+#rock:hover {
+    background-image: url(/assets/img/rockoutline.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    height: 15vw;
+    color: #00a8f3;
+    text-shadow: 0px 0px 4px #000000;
+ 
+}
+
+#paper {
+  background-image: url(/assets/img/paper.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  height: 15vw;
+  text-shadow: 0px 0px 4px #292929;
+}
+
+#paper:hover {
+  background-image: url(/assets/img/paperoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 58%;
+  height: 15vw;
+  color: #b83dba;
+  text-shadow: 0px 0px 4px #000000;
+}
+
+#scissors{
+  background-image: url(/assets/img/scissors.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  height: 15vw;
+  text-shadow: 0px 0px 4px #292929;
+}
+
+#scissors:hover {
+  background-image: url(/assets/img/scissorsoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 58%;
+  height: 15vw;
+  color: #ec1c24;
+  text-shadow: 0px 0px 4px #000000;
+}
+
+#lizard{
+  background-image: url(/assets/img/lizard.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  height: 15vw;
+  text-shadow: 0px 0px 4px #292929;
+}
+
+#lizard:hover {
+  background-image: url(/assets/img/lizardoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  height: 15vw;
+  color: #0ed145;
+  text-shadow: 0px 0px 4px #000000;
+}
+
+#spock{
+  background-image: url(/assets/img/spock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  height: 15vw;
+  text-shadow: 0px 0px 4px #292929;
+}
+
+#spock:hover {
+  background-image: url(/assets/img/spockoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  height: 15vw;
+  color: #ff7f27;
+  text-shadow: 0px 0px 4px #000000;
+}
