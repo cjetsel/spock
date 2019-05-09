@@ -42,7 +42,7 @@ body {
 }
 
 #rock {
-    background-image: url(img/rock.png);
+    background-image: url(rock.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25%;
@@ -54,7 +54,7 @@ body {
 
 
 #rock:hover {
-    background-image: url(img/rockoutline.png);
+    background-image: url(rockoutline.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
@@ -65,7 +65,7 @@ body {
 }
 
 #paper {
-  background-image: url(img/paper.png);
+  background-image: url(paper.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
@@ -74,7 +74,7 @@ body {
 }
 
 #paper:hover {
-  background-image: url(img/paperoutline.png);
+  background-image: url(paperoutline.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 58%;
@@ -84,7 +84,7 @@ body {
 }
 
 #scissors{
-  background-image: url(img/scissors.png);
+  background-image: url(scissors.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
