@@ -82,4 +82,4 @@ function declare(result, choose) {
   } else {
     document.getElementById("winner").innerHTML = `<h1 class="text-center text-primary"> It's a tie! Try again?</h1>`
   }
-}
+};
